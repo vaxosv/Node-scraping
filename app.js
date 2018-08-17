@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 
 
 const options = {
-  uri: `https://www.rottentomatoes.com/`,
+  uri: `http://tesau.edu.ge/`,
   transform: function(body) {
     return cheerio.load(body);
   }
